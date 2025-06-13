@@ -1,0 +1,216 @@
+body {
+  font-family: 'Roboto';
+  color: #2D2D2D;
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  padding: 20px 0;
+  background: #fff;
+  text-align: left;
+}
+
+.logo {
+  margin-left: 40px;
+}
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.hero {
+  background: #e00032;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+.hero-content {
+  flex: 1 1 350px;
+  min-width: 300px;
+}
+.hero-content h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.hero-content h1 span {
+  font-weight: 700;
+}
+.hero-content button {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+.hero-content button:hover {
+  background: #fff;
+  color: #e00032;
+}
+.hero-image {
+  flex: 1 1 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.hero-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+}
+
+/* SERVICES SECTION */
+.services {
+  background: #efefef;
+  padding: 60px 0;
+  text-align: center;
+}
+.services h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+}
+.service {
+  flex: 1 1 0;
+  padding: 0 30px;
+  text-align: center;
+  position: relative;
+}
+
+.service .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #e00032;
+  border-radius: 50%;
+  padding: 10px;
+  object-fit: contain;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.service h3 {
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+}
+.service p {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+}
+
+/* CLIENTS SECTION */
+.clients {
+  background: #e00032;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+.clients h2 {
+  margin-bottom: 30px;
+}
+.client-logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.client-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
+/* TEAM SECTION */
+.team {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+.team h2 {
+  margin-bottom: 10px;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.team-member {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px 20px 20px 20px;
+  width: 250px;
+  box-shadow: none;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-photo-rect {
+  width: 220px;
+  height: 140px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin-bottom: 0;
+  border-radius: 0;
+  background: #fff;
+}
+.team-line-rect {
+  width: 220px;
+  height: 4px;
+  background: #e00032;
+  border-radius: 2px;
+  margin: 0 0 15px 0;
+}
+.team-member h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.role {
+  color: #9c9c9c;
+  margin-bottom: 10px;
+}
+footer {
+  background: #2D2D2D;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+footer a {
+  color: #e00032;
+  text-decoration: none;
+}
